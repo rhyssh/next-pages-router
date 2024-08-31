@@ -6,17 +6,38 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "test": "jest --passWithNoTests -u",
+    "test:cover": "npm run test -- --coverage",
+    "test:watch": "jess --watch"
   },
   "dependencies": {
     "@types/node": "22.5.0",
     "@types/react": "18.3.4",
     "@types/react-dom": "18.3.0",
+    "bcrypt": "^5.1.1",
     "eslint": "8.57.0",
     "eslint-config-next": "14.2.6",
+    "firebase": "^10.13.0",
     "next": "14.2.6",
+    "next-auth": "^4.24.7",
     "react": "18.3.1",
     "react-dom": "18.3.1",
+    "swr": "^2.2.5",
     "typescript": "5.5.4"
+  },
+  "devDependencies": {
+    "@testing-library/dom": "^10.4.0",
+    "@testing-library/jest-dom": "^6.5.0",
+    "@testing-library/react": "^16.0.1",
+    "@types/bcrypt": "^5.0.2",
+    "@types/jest": "^29.5.12",
+    "autoprefixer": "^10.4.20",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "postcss": "^8.4.41",
+    "sass": "^1.77.8",
+    "tailwindcss": "^3.4.10",
+    "ts-node": "^10.9.2"
   }
 }
