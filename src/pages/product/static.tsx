@@ -10,6 +10,16 @@
 //   );
 // };
 
+const ProductStatic = () => {
+  return (
+    <div>
+      <p>product static page</p>
+    </div>
+  );
+};
+
+export default ProductStatic;
+
 // export default ProductPage;
 
 // export async function getStaticProps() {
